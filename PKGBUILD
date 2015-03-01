@@ -7,7 +7,7 @@
 pkgbase=ipython 
 pkgname=(ipython ipython2)
 pkgver=3.0.0
-pkgrel=1
+pkgrel=2
 pkgdesc="An enhanced Interactive Python shell."
 arch=('any')
 url="http://ipython.org"
@@ -21,6 +21,7 @@ optdepends=("python-nose: for IPython's test suite"
             "python-pyzmq: ipython notebook and ipython qtconsole"
             "python-tornado: for ipython notebook"
             "python-jinja: for ipython notebook"
+            "python-jsonschema: for ipython notebook"
             "haskell-pandoc: ipython notebook conversion")
 #source=("http://archive.ipython.org/release/$pkgver/ipython-$pkgver.tar.gz")
 source=("https://pypi.python.org/packages/source/i/ipython/$pkgbase-$pkgver.tar.gz")
@@ -60,6 +61,7 @@ package_ipython2() {
               "python2-pyzmq: ipython notebook and ipython qtconsole"
               "python2-tornado: for ipython notebook"
               "python2-jinja: for ipython notebook"
+              "python2-jsonschema: for ipython notebook"
               "haskell-pandoc: ipython notebook conversion")
 
   cd "$srcdir/ipython2-$pkgver"
