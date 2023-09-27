@@ -7,13 +7,14 @@
 
 pkgname=ipython
 pkgver=8.15.0
-pkgrel=2
+pkgrel=3
 pkgdesc='Enhanced Interactive Python shell'
 arch=('any')
 url=https://ipython.org
 license=('BSD')
 depends=(
   'python-backcall'
+  'python-decorator'
   'python-jedi'
   'python-matplotlib-inline'
   'python-pexpect'
