@@ -6,7 +6,7 @@
 # Contributor: Douglas Soares de Andrade <dsa@aur.archlinux.org>
 
 pkgname=ipython
-pkgver=8.17.1
+pkgver=8.17.2
 pkgrel=1
 pkgdesc='Enhanced Interactive Python shell'
 arch=('any')
@@ -37,6 +37,7 @@ checkdepends=(
   'python-matplotlib'
   'python-numpy'
   'python-pandas'
+  'python-pickleshare'
   'python-pytest'
   'python-pytest-asyncio'
   'python-testpath'
