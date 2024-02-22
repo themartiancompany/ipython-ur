@@ -6,12 +6,12 @@
 # Contributor: Douglas Soares de Andrade <dsa@aur.archlinux.org>
 
 pkgname=ipython
-pkgver=8.21.0
+pkgver=8.22.1
 pkgrel=1
 pkgdesc='Enhanced Interactive Python shell'
 arch=('any')
 url=https://ipython.org
-license=('BSD')
+license=('BSD-3-Clause')
 depends=(
   'python-decorator'
   'python-jedi'
