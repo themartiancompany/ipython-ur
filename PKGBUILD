@@ -6,7 +6,7 @@
 # Contributor: Douglas Soares de Andrade <dsa@aur.archlinux.org>
 
 pkgname=ipython
-pkgver=8.22.1
+pkgver=8.22.2
 pkgrel=1
 pkgdesc='Enhanced Interactive Python shell'
 arch=('any')
