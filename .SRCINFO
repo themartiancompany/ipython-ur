@@ -1,7 +1,7 @@
 pkgbase = ipython
 	pkgdesc = Enhanced Interactive Python shell
 	pkgver = 8.22.2
-	pkgrel = 1
+	pkgrel = 2
 	url = https://ipython.org
 	arch = any
 	license = BSD-3-Clause
@@ -12,7 +12,7 @@ pkgbase = ipython
 	checkdepends = python-numpy
 	checkdepends = python-pandas
 	checkdepends = python-pickleshare
-	checkdepends = python-pytest
+	checkdepends = python-pytest7
 	checkdepends = python-pytest-asyncio
 	checkdepends = python-testpath
 	checkdepends = python-trio

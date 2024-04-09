@@ -7,7 +7,7 @@
 
 pkgname=ipython
 pkgver=8.22.2
-pkgrel=1
+pkgrel=2
 pkgdesc='Enhanced Interactive Python shell'
 arch=('any')
 url=https://ipython.org
@@ -38,7 +38,7 @@ checkdepends=(
   'python-numpy'
   'python-pandas'
   'python-pickleshare'
-  'python-pytest'
+  'python-pytest7'
   'python-pytest-asyncio'
   'python-testpath'
   'python-trio'
