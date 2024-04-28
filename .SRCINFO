@@ -1,7 +1,7 @@
 pkgbase = ipython
 	pkgdesc = Enhanced Interactive Python shell
-	pkgver = 8.22.2
-	pkgrel = 2
+	pkgver = 8.24.0
+	pkgrel = 1
 	url = https://ipython.org
 	arch = any
 	license = BSD-3-Clause
@@ -36,10 +36,10 @@ pkgbase = ipython
 	optdepends = python-black: to auto format with Black
 	optdepends = python-pickleshare: for the ip.db database
 	optdepends = yapf: to auto format with YAPF
-	source = git+https://github.com/ipython/ipython.git#tag=8.22.2?signed
+	source = git+https://github.com/ipython/ipython.git#tag=8.24.0?signed
 	source = IPython-icon.png::https://www.packal.org/sites/default/files/public/styles/icon_large/public/workflow-files/nkeimipynbworkflow/icon/icon.png
 	validpgpkeys = 99B17F64FD5C94692E9EF8064968B2CC0208DCC8
-	b2sums = 1a0e79c3eb826f61d251d4d7eedc6b941441c6bca8996542f3fdcbf8e2ca4f812a2d3b0400769f470c141f17a30f19374ffa0189e7f7a8bd0e5ea38bf5087966
+	b2sums = 8d34732f3a603b9f4142059748e33e4cf9281a0a3fd7e07f04594884b62402dc03dd825dc060d2b430ddcc72e536b0fedffc83b0f404c394fcac9a6f0d26f9c1
 	b2sums = d445e2bc7a037db8715ea103611720e965987e155c32e445b0ef783e519fca8a0301b16c5763fd9a5d8d169c3b0d7b4db6c0bd0f9772842258b135dcb1d6d5a2
 
 pkgname = ipython
