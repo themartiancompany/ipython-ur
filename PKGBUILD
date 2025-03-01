@@ -6,7 +6,7 @@
 # Contributor: Douglas Soares de Andrade <dsa@aur.archlinux.org>
 
 pkgname=ipython
-pkgver=8.33.0
+pkgver=9.0.0
 pkgrel=1
 pkgdesc='Enhanced Interactive Python shell'
 arch=(any)
@@ -14,6 +14,7 @@ url=https://ipython.org
 license=(BSD-3-Clause)
 depends=(
   python-decorator
+  python-ipython-pygments-lexers
   python-jedi
   python-matplotlib-inline
   python-pexpect
@@ -37,7 +38,6 @@ checkdepends=(
   python-matplotlib
   python-numpy
   python-pandas
-  python-pickleshare
   python-pytest
   python-pytest-asyncio
   python-testpath
@@ -55,7 +55,7 @@ source=(
   "git+https://github.com/ipython/ipython.git#tag=$pkgver?signed"
   'IPython-icon.png::https://www.packal.org/sites/default/files/public/styles/icon_large/public/workflow-files/nkeimipynbworkflow/icon/icon.png'
 )
-b2sums=('ccff1ffae1b65af33ca520a3a6048cd8fa5f190fb7ca736accb8a91821bd69ae2c8faf43aa8f4eb30053eab590486d1eddf31ace62d9b2ef8ff75c91aaffc3ed'
+b2sums=('63348ba0d1fec4a243ec1e4a5e52b66d0cf42f227ea78d9be182d81fe9afea99fa59732fcd72e884f2476a30ad9c9af5ff6c4d4b7603f5c492c56f7b4e666af2'
         'd445e2bc7a037db8715ea103611720e965987e155c32e445b0ef783e519fca8a0301b16c5763fd9a5d8d169c3b0d7b4db6c0bd0f9772842258b135dcb1d6d5a2')
 validpgpkeys=(99B17F64FD5C94692E9EF8064968B2CC0208DCC8) # Matthias Bussonnier <bussonniermatthias@gmail.com>
 
