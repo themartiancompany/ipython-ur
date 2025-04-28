@@ -153,8 +153,16 @@ package() {
       "installer" \
       --destdir="${pkgdir}" \
       "dist/"*".whl"
-  cd 'examples/IPython Kernel'
+  cd \
+    'examples/IPython Kernel'
   # FS#45120
-  sed -i 's/gnome-netstatus-idle/ipython/' ipython.desktop
-  install -Dm644 -t "$pkgdir"/usr/share/applications ipython.desktop
+  sed \
+    -i \
+    "s/gnome-netstatus-idle/${_pkg}/" \
+    "${_pkg}.desktop"
+  install \
+    -Dm644 \
+    -t \
+    "${pkgdir}/usr/share/applications" \
+    "${_pkg}.desktop"
 }
