@@ -53,6 +53,8 @@ license=(
   'BSD-3-Clause'
 )
 depends=(
+  "${_py}>=${_pymajver}"
+  "${_py}<${_pynextver}"
   "${_py}-decorator"
   "${_py}-ipython-pygments-lexers"
   "${_py}-jedi"
@@ -85,6 +87,9 @@ checkdepends=(
   "tcsh"
   "texlive-bin"
   "texlive-latex"
+)
+provides=(
+  "${_py}-${_pkg}=${pkgver}"
 )
 optdepends=(
   "${_py}-black: to auto format with Black"
